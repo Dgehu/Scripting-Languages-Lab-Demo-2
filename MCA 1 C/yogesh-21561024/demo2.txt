@@ -1,0 +1,18 @@
+h1{
+	text-decoration: overline blue wavy;
+	color:blue;
+	font-style:italic;
+
+text-align: center;
+}
+----------------------------------------------*******************************------------------------
+  ---------------------------------------------------------------------------------------------------
+  <!doctype html>
+<head>
+<title>hello</title>
+</head>
+<body>
+<link rel="stylesheet"type="text/css"href="external.css">
+<p><h1>this is heading example</h1></p>
+</body>
+</html>
