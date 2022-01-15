@@ -1,0 +1,11 @@
+<html>
+<head><title>BIO DATA</title></head>
+<body>
+<h1>BIO DATA</h1>
+<h3><b>Name : KARAN TIWARI</b></h3>
+<h3><b>Father Name :PURAN CHANDRA TIWARI</b></h3>
+<h3><b>Mother Name : PUSHPA DEVI</b></h3>
+<h3><b>Age : 21 </b></h3>
+<h3><b>Address : BAGESHWAR</b></h3>
+</body>
+</html>        
