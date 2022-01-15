@@ -1,0 +1,118 @@
+:root{
+    --gradient:linear-gradient(90deg, #dad5c2, #ccc4b8);
+}
+
+*{
+    font-family: 'Open Sans', sans-serif;
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+    border: none; outline: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: all .2s linear;
+}
+
+*::selection{
+    background:#0b5cc5 ;
+    color: rgb(255, 255, 255);
+}
+
+html{
+    font-size: 75%;
+    overflow-x: hidden;
+}
+
+html::-webkit-scrollbar{
+    width: 1.5rem;
+}
+
+html::-webkit-scrollbar-track{
+    background: rgba(100, 99, 99, 0.301);
+}
+
+html::-webkit-scrollbar-thumb{
+    background: linear-gradient(#949494, #949494);
+}
+
+section{
+    min-height: 100vh;
+    padding: 1rem 7%;
+    padding-top: 6rem;
+}
+.btn{
+    padding: 1.5rem 3rem;
+    font-size: 2rem;
+    color: #fff;
+    background: var(--gradient);
+    border-radius: 5rem;
+    margin-top: 1rem;
+    cursor: pointer;
+    box-shadow: 0 1rem 1rem rgba(0, 0, 0, .3);
+    position: relative;
+    overflow: hidden;
+    z-index: 0;
+}
+
+header{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0; left: 0;
+    z-index: 1000;
+    padding: 1.5rem 7%;
+    background: var(--gradient);
+    box-shadow: 0 .1rem .3rem rgba(0, 0, 0, .3);
+}
+
+header .navbar ul{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    list-style: none;
+}
+
+header .navbar ul li{
+    margin: 0 1rem;
+}
+
+header .navbar ul li a{
+    font-size: 2rem;
+    color: #fff;
+}
+
+header .navbar ul li a.active,
+header .navbar ul li a:hover{
+    color: #666;
+}
+
+header #login{
+    font-size: 3rem;
+    color: #fff;
+    cursor: pointer;
+}
+
+header #login:hover{
+    color: #444;
+}
+
+.home{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+}
+
+.home h1{
+    font-size: 6rem;
+    color: #666;
+}
+
+.home p{
+    font-size: 1.9rem;
+    color: #999;
+    padding: 1rem 0;
+    width: 70rem;
+}
